@@ -46,6 +46,7 @@ class Page extends Component<IProps> {
 }
 const pageInfoObj = {
     title: 'Hello Page'
+    
 }
 const myPage = new Page(pageInfoObj);
 myPage.pageInfo();
