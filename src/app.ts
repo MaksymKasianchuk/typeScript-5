@@ -1,3 +1,4 @@
+console.log('str');
 // task 1 descrybe the type of function getPromise
 function getPromise (): Promise<Array<string | number>> {
     return new Promise((resolve) => {
@@ -46,7 +47,7 @@ class Page extends Component<IProps> {
 }
 const pageInfoObj = {
     title: 'Hello Page'
-    
+
 }
 const myPage = new Page(pageInfoObj);
 myPage.pageInfo();
